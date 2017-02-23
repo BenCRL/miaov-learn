@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3-文本属性练习</title>
+    <style>
+    body,
+    ul {
+        margin: 0;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .wrap {
+        width: 352px;
+        margin: 50px auto;
+        border: 1px solid #fff;
+    }
+    
+    .list {
+        height: 40px;
+        background: #fefafb url("img/3-background.png") no-repeat;
+        border-bottom: 10px solid #c6cad7;
+    }
+    
+    .list li {
+        float: left;
+        font-size: 14px;
+        line-height: 40px;
+        margin-right: 42px;
+    }
+    
+    .noBorderBottom {
+        border-bottom: 0;
+    }
+    
+    .clearfix {
+        zoom: 1;
+    }
+    
+    .clearfix:before,
+    .clearfix:after {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+    
+    .clearfix:cc {
+        clear: both;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <ul class="list clearfix">
+            <li>装修设计</li>
+            <li>全包</li>
+            <li>半包</li>
+            <li>设计</li>
+        </ul>
+        <ul class="list clearfix">
+            <li>家装建材</li>
+            <li>吊灯</li>
+            <li>马桶</li>
+            <li>地板</li>
+        </ul>
+        <ul class="list clearfix">
+            <li>全屋定制</li>
+            <li>衣柜</li>
+            <li>橱柜</li>
+            <li>门</li>
+        </ul>
+        <ul class="list clearfix">
+            <li>住宅家具</li>
+            <li>沙发</li>
+            <li>床</li>
+            <li>桌椅</li>
+        </ul>
+        <ul class="list clearfix">
+            <li>家纺定品</li>
+            <li>四件套</li>
+            <li>被</li>
+            <li>枕头</li>
+        </ul>
+        <ul class="list clearfix">
+            <li>家饰布艺</li>
+            <li>摆件</li>
+            <li>挂画</li>
+            <li>窗帘</li>
+        </ul>
+        <ul class="list clearfix">
+            <li>生活家居</li>
+            <li>收纳</li>
+            <li>拖鞋</li>
+        </ul>
+        <ul class="list noBorderBottom clearfix">
+            <li>居家必备</li>
+            <li>汤锅</li>
+            <li>碗盘</li>
+            <li>雨伞</li>
+        </ul>
+    </div>
+</body>
+
+</html>
