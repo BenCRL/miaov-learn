@@ -1,0 +1,117 @@
+/* css reset begin */
+
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+dl,
+dd,
+form,
+input,
+textarea,
+select {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clear {
+    zoom: 1;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* css reset end */
+
+body {
+    background: #fff url("../images/body_bg.png") repeat-x;
+}
+
+#top {
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.top_menu {
+    float: left;
+}
+
+.top_menu li {
+    float: left;
+    margin-right: 15px;
+    padding-right: 18px;
+    background: url(../images/top_ico.png) no-repeat right 14px;
+}
+
+.top_menu a {
+    font-size: 13px;
+    color: #c0c0c0;
+    line-height: 30px;
+}
+
+.top_menu a:hover {
+    color: #fff;
+}
+
+.top_menu .no_dot {
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top_bar {
+    float: left;
+    width: 320px;
+    margin-left: 102px;
+}
+
+.top_bar li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.top_bar .phone {
+    background: url(../images/top_ico.png) no-repeat 0 -17px;
+    padding: 0 38px 0 30px;
+}
+
+.top_bar .help {
+    background: url(../images/top_ico.png) no-repeat 0 -47px;
+    padding: 0 0 0 38px;
+}
+
+.top_bar a {
+    color: #fff;
+}
+
+.top_bar .space {
+    padding: 0 13px 0 29px;
+}
