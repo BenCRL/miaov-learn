@@ -105,7 +105,7 @@ body {
 
 .top_bar .help {
     background: url(../images/top_ico.png) no-repeat 0 -47px;
-    padding: 0 0 0 38px;
+    padding: 0 0 0 36px;
 }
 
 .top_bar a {
@@ -114,4 +114,90 @@ body {
 
 .top_bar .space {
     padding: 0 13px 0 29px;
+}
+
+#header {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    backgro backgroundund: url("../images/header_bg.png") no-repeat;
+}
+
+#shopping {
+    width: 278px;
+    height: 88px;
+    background: url("../images/shopping_bg.png") no-repeat;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+#shopping p {
+    color: #f7f7f7;
+    font-size: 20px;
+    padding-top: 22px;
+    padding-left: 86px;
+}
+
+#shopping a {
+    width: 114px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    display: block;
+    background: url("../images/shopping_bg.png") no-repeat 0 -88px;
+    color: #ffc200;
+    margin: 10px 0 0 106px;
+}
+
+#shopping a:hover {
+    text-decoration: none;
+    color: #fbe19c;
+}
+
+#header h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 234px;
+    margin-left: -117px;
+}
+
+#header .search {
+    top: 34px;
+    right: 0;
+}
+
+.search {
+    background: url("../images/search.png") no-repeat;
+    width: 292px;
+    height: 31px;
+    position: absolute;
+}
+
+.search .text {
+    background: none;
+    border: none;
+    width: 230px;
+    color: #666666;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 13px;
+    line-height: 31px;
+    height: 31px;
+    outline: none;
+}
+
+.search .btn {
+    width: 42px;
+    height: 31px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
